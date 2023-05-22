@@ -4,7 +4,7 @@ info:
   description: Beruang API
   version: 1.0.0
 servers:
-  - url: /api
+  - url: /a
 paths:
   /wallets:
     get:
@@ -146,7 +146,7 @@ paths:
       parameters:
         - name: walletId
           in: path
-          description: Wallet id to set default to true 
+          description: Wallet id to set default to true
           required: true
           schema:
             type: integer
